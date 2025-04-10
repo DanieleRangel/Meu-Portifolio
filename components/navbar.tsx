@@ -13,8 +13,8 @@ const navItems = [
 
 
 const socialLinks = {
-  github: "https://github.com/SamuelRicardos",
-  linkedin: "https://www.linkedin.com/in/samuel-ricardo-28880a24b/",
+  github: "https://github.com/DanieleRangel",
+  linkedin: "https://www.linkedin.com/in/daniele-c-rangel/",
 };
 
 export default function Navbar() {
@@ -46,13 +46,13 @@ export default function Navbar() {
               <div className="absolute inset-0 bg-gradient-to-r from-primary to-tertiary animate-spin-slow [mask-image:linear-gradient(transparent,white)]" />
               <div className="absolute inset-[2px] bg-background rounded-full flex items-center justify-center">
                 <span className="font-bold bg-gradient-to-r from-primary to-tertiary bg-clip-text text-transparent">
-                  SR
+                  DR
                 </span>
               </div>
 
             </div>
             <span className="font-semibold text-content/90 group-hover:text-primary transition-colors">
-              Samuel Ricardo
+              Daniele Rangel
             </span>
           </motion.div>
 

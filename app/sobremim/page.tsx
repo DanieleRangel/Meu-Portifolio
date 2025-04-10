@@ -29,8 +29,15 @@ export default function SobreMim() {
               </h2>
               <div className="w-24 h-1 bg-gradient-to-r from-primary to-tertiary rounded-full mx-auto mb-8" />
               <p className="text-lg text-content/80 text-justify max-w-3xl mx-auto">
-                Olá, eu sou o Samuel Ricardo dos Santos Ferreira, tenho 20 anos e moro em Brasília-DF. Sou formado em Análise e Desenvolvimento de Sistemas na Faculdade Senac DF, sou Pós-graduando em Desenvolvimento fullstack na Unyleya e atuo como desenvolvedor fullstack. Sou apaixonado por tecnologia e adoro criar soluções que realmente fazem a diferença. No front-end, trabalho com Angular 17 e React JS para desenvolver interfaces modernas e intuitivas. No back-end, utilizo Node JS e Java com frameworks como Spring Boot ou Quarkus, garantindo que tudo funcione de forma eficiente e confiável. Na área de dados, utilizo Python, Airflow, Astro, Docker e AWS para construir ETLs, pipelines e datalakes. Estou sempre em constante aprendizado, buscando conhecer novas tecnologias e aprimorar minhas habilidades. Meu objetivo é entregar projetos que gerem impacto positivo tanto para as pessoas quanto para os negócios.
+              Oi! Eu sou a Daniele Rangel, mas pode me chamar de Dani.
+              <p> Sou formada em Gestão de Recursos Humanos e, depois de muitos anos trabalhando com pessoas, atendimento e melhoria de processos, decidi seguir um novo caminho: a tecnologia!</p>
+              <p> Hoje sou aluna do bootcamp da Generation Brasil, na turma DevAs Java80, onde estou me desenvolvendo como futura desenvolvedora fullstack.</p> 
+              <p>Tenho estudado linguagens e ferramentas como Java, Spring Boot, JavaScript, TypeScript, React, HTML, CSS, Tailwind, MySQL e PostgreSQL.</p>
+              <p>já participei da criação de projetos como uma aplicação bancária, um blog e um app de carona.</p>
+              <p>Sou movida por desafios, curiosidade e pela vontade de fazer a diferença. Acredito que com empatia, dedicação e colaboração, a gente vai longe. </p>
+              <p>Meu objetivo é continuar crescendo na área tech, construindo soluções que impactem positivamente a vida das pessoas.</p>
               </p>
+              
 
             </motion.div>
 
@@ -45,27 +52,12 @@ export default function SobreMim() {
               </h2>
               <div className="w-20 h-1 bg-gradient-to-r from-primary to-tertiary rounded-full mx-auto mb-8" />
               <div className="text-content/80 max-w-3xl mx-auto space-y-6">
-                <div>
-                  <h3 className="text-xl font-semibold">Polícia Federal</h3>
-                  <p className="text-sm">Estágio em desenvolvimento de software • 04/24 - 12/24</p>
-                  <p>
-                    Criação de interfaces, componentes e funcionalidades com Angular e Primeng, além de integração com o back-end e uso de API Rest. Prototipação de telas no Figma. Criação de endpoints com Java e Quarkus, realização de testes unitários com jUnit e melhoria de qualidade código com SonarQube.
-                  </p>
-                </div>
-                <div className="flex justify-center mt-8">
-                  <Image
-                    src="/PF_foto.png"
-                    alt="Samuel Ricardo"
-                    width={160}
-                    height={160}
-                    className="rounded-2xl w-80 shadow-lg object-cover"
-                  />
-                </div>
+
                 <div>
                   <h3 className="text-xl font-semibold">Projetos Freelancers</h3>
-                  <p className="text-sm">03/25 - até o momento</p>
+                  <p className="text-sm">02/25 - até o momento</p>
                   <p>
-                    Desenvolvimento de landing pages utilizando React, NextJS e TailwindCSS.
+                    Desenvolvimento de landing pages utilizando React, TypeScript e TailwindCSS.
                   </p>
                 </div>
               </div>

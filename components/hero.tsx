@@ -5,6 +5,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 
+
 export default function Hero() {
     const { scrollY } = useScroll();
     const y = useTransform(scrollY, [0, 500], [0, 100]);
@@ -52,19 +53,27 @@ export default function Hero() {
                             className="text-xl text-content/80 mb-8"
                         >
 
-Especializado em Angular, React, Next.js, Node.js, Java, Spring Boot, MongoDB e muito mais. Desenvolvendo aplicações escaláveis com tecnologias modernas.
+<div className="p-8 text-center space-y-4">
+    <h1 className="text-3xl font-bold text-purple-700">Oi, eu sou a Dani 👋</h1>
+    <p className="text-lg">
+    Sou uma desenvolvedora em formação, apaixonada por tecnologia e determinada a transformar minha vida por meio da programação.
+    No momento, estou me desenvolvendo na Stack: <strong>☕ Java • 📜 JavaScript • ⚛️ React • 🌐 HTML/CSS • 🌀 Tailwind • 💾 MySQL/PostgreSQL • 🛠️ Spring Boot</strong>
+    </p>
+</div>
+
+
 
                         </motion.p>
 
 
-                        <Link href="/CurriculoSamuelRicardo_Fullstack.pdf" download>
+                        <Link href="/projects/Daniele Cristina da C Rangel.pdf" download>
                             <motion.button
                                 initial={{ opacity: 0, y: 20 }}
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.8, delay: 1.2 }}
                                 whileHover={{ scale: 1.05, transition: { duration: 0.2 } }}
                                 className="relative overflow-hidden px-8 py-4 rounded-full bg-surface border
-      border-white/10 hover:border-primary/30 transition-all group"
+        border-white/10 hover:border-primary/30 transition-all group"
                             >
                                 <span className="text-content group-hover:text-primary transition-colors">
                                     Baixar CV
@@ -99,7 +108,7 @@ Especializado em Angular, React, Next.js, Node.js, Java, Spring Boot, MongoDB e 
                                 className="absoulte inset-0 rounded-3xl
                                     bg-gradient-to-r from-primary/30
                                 via-secondary/30 to-tertiary/30
-                                 opacity-50"
+                                    opacity-50"
                             />
                             
                             <motion.div
@@ -114,7 +123,7 @@ Especializado em Angular, React, Next.js, Node.js, Java, Spring Boot, MongoDB e 
                                 border border-white/10 bg-surface 
                                 backdrop-blur-sm"
                             >
-                                <Image src="/Samuelegante.png"
+                                <Image src="/projects/eu.jpg"
                                     alt="Avatar"
                                     fill
                                     className="object-cover scale-110 group-hover:scale-100
