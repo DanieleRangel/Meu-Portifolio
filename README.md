@@ -9,3 +9,6 @@ Olá! Sou a Dani, desenvolvedora em formação com paixão por tecnologia e tran
 Este portfólio é onde compartilho minha evolução, projetos e sonhos.
 
 Sinta-se à vontade para explorar 💜
+
+## ✨ Créditos
+Este portfólio foi inspirado e iniciado a partir de um modelo do [Samuel Ricardo](https://github.com/SamuelRicardos/portfolio-samuelricardo), com personalizações e desenvolvimentos feitos por mim, Daniele Rangel.
