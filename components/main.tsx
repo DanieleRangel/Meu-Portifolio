@@ -1,8 +1,8 @@
 
 'use client';
 import { motion } from "framer-motion";
-import { FaNode, FaReact, FaAngular, FaJava } from "react-icons/fa";
-import { SiFirebase, SiMongodb, SiNextdotjs, SiTailwindcss, SiTypescript, SiVite, SiPrimeng, SiMysql, SiSpringboot, SiShadcnui } from "react-icons/si";
+import { FaNode, FaReact, FaAngular, FaJava, FaCss3Alt, FaHtml5 } from "react-icons/fa";
+import { SiFirebase, SiMongodb, SiNextdotjs, SiTailwindcss, SiTypescript, SiVite, SiPrimeng, SiMysql, SiSpringboot, SiShadcnui, SiBootstrap } from "react-icons/si";
 import { RiBearSmileFill } from "react-icons/ri";
 import Image from "next/image";
 import { ArrowUpRightIcon } from "@heroicons/react/16/solid";
@@ -11,74 +11,70 @@ import Link from "next/link";
 
 const projects = [
     {
-        title: "Dashboard financeiro",
-        description: "Um dashboard moderno feito com NextJS e Firebase",
-        url: "https://github.com/SamuelRicardos/projeto-dashboard",
+        title: "Site Ecommerce",
+        description: "Um Site de ecommerce feito com Html e Css",
+        url: "https://github.com/DanieleRangel/siteEcommerce",
         tech: [
-            { name: "React", icon: FaReact, color: "#61DAFB" },
+            { name: "HTML", icon: FaHtml5, color: "#E34F26" },
+            { name: "CSS", icon: FaCss3Alt, color: "#1572B6" },
+            /*
             { name: "Next.js", icon: SiNextdotjs, color: "000000" },
+            { name: "Angular", icon: FaAngular, color: "#C50836" },
+            { name: "MySQL", icon: SiMysql, color: "#1A6997" }
+            { name: "Spring Boot", icon: SiSpringboot, color: "#71B544" },
             { name: "Tailwind CSS", icon: SiTailwindcss, color: "#06B6D4" },
-            { name: "Firebase", icon: SiFirebase, color: "#FFCA28" },
-            { name: "Zustand", icon: RiBearSmileFill, color: "#453F39" },
-            { name: "ShadcnUI", icon: SiShadcnui, color: "#FFFFFF" },
-            { name: "TS", icon: SiTypescript, color: "#3178C6" },
+            { name: "TS", icon: SiTypescript, color: "#3178C6" },*/
         ],
         image: '/projects/Dashboard2.png'
     },
     {
-        title: "MarketList",
-        description: "Um CRUD de lista de mercado. Com funcionalidades extras como tema claro/escuro e histórico de compras",
-        url: "https://github.com/SamuelRicardos/lista-de-mercado",
+        title: "loja de ecommerce Fandom",
+        description: "Aplicação de e-commerce com carrinho interativo, listagem de produtos e total dinâmico, tudo em um layout responsivo.",
+        url: "https://github.com/DanieleRangel/fandom-projeto",
         tech: [
             { name: "React", icon: FaReact, color: "#61DAFB" },
-            { name: "Vite", icon: SiVite, color: "#3178C6" },
-            { name: "Zustand", icon: RiBearSmileFill, color: "#453F39" },
+            { name: "HTML", icon: FaHtml5, color: "#E34F26" },
+            { name: "CSS", icon: FaCss3Alt, color: "#1572B6" },
         ],
         image: '/projects/ListaMercado.png'
     },
     {
-        title: "Hashbnb",
-        description: "Hashbnb é um clone do Airbnb, desenvolvido com foco em experiência do usuário e boas práticas modernas.",
-        url: "https://github.com/SamuelRicardos",
+        title: "Conta Bancária",
+        description:"aplicação em Java que simula operações bancárias básicas, como criação de contas, saques, depósitos e saldo disponível, oferece uma interface simples e interativa.",
+        url: "https://github.com/DanieleRangel/contabancaria",
         tech: [
-            { name: "React", icon: FaReact, color: "#61DAFB" },
-            { name: "Vite", icon: SiVite, color: "#3178C6" },
-            { name: "NodeJS", icon: FaNode, color: "#339933" },
-            { name: "MongoDB", icon: SiMongodb, color: "#6EB442" }
+            { name: "Java", icon: FaJava, color: "#096CAB" },
         ],
         image: '/projects/Hashbnb.png'
     },
     {
-        title: "Cozinha criativa",
-        description: "Um sistema de receitas, onde é criado um fluxo para a criação de livro de receitas em PDF",
-        url: "https://github.com/SamuelRicardos/cozinha_criativa",
+        title: "Cardápio",
+        description: "uma site simples que apresenta um menu de pratos de forma organizada e responsiva.",
+        url: "https://github.com/DanieleRangel/Cardapio",
         tech: [
-            { name: "Angular", icon: FaAngular, color: "#C50836" },
-            { name: "Primeng", icon: SiPrimeng, color: "#DE0837" },
-            { name: "Java", icon: FaJava, color: "#096CAB" },
-            { name: "Spring Boot", icon: SiSpringboot, color: "#71B544" },
-            { name: "MySQL", icon: SiMysql, color: "#1A6997" }
+            { name: "HTML", icon: FaHtml5, color: "#E34F26" },
+            { name: "Bootstrap", icon: SiBootstrap, color: "#7952B3" }
         ],
         image: '/projects/Cozinhacriativa.png'
     },
     {
-        title: "PetDev",
-        description: "Uma landing page para serviços de pets",
-        url: "https://github.com/SamuelRicardos/petdev",
+        title: "Blog Pessoal",
+        description: "criar, visualizar e gerenciar postagens em um blog com autenticação de usuários e layout responsivo e integração com back-end.",
+        url: "https://github.com/DanieleRangel/BlogPessoal-Front",
         tech: [
-            { name: "Next.js", icon: SiNextdotjs, color: "000000" },
             { name: "React", icon: FaReact, color: "#61DAFB" },
             { name: "Tailwind CSS", icon: SiTailwindcss, color: "06B6D4" },
-            { name: "ShadcnUI", icon: SiShadcnui, color: "#FFFFFF" },
+            { name: "TS", icon: SiTypescript, color: "#3178C6" },
+            { name: "MySQL", icon: SiMysql, color: "#1A6997" },
+            { name: "Spring Boot", icon: SiSpringboot, color: "#71B544" },
         ],
         image: '/projects/PetDev.png'
     },
     {
-        title: "LoginPage",
-        description: "Uma página de login e cadastro com integração com back-end",
-        url: "https://github.com/SamuelRicardos/login-page-frontend",
+        title: "Crud_farmacia",
+        description: "simula o sistema de uma farmácia, permitindo cadastrar, visualizar, atualizar e remover produtos. Estrutura organizada para o controle de informações, como nome, preço e categoria dos itens.",
+        url: "https://github.com/DanieleRangel/Crud_farmacia",
         tech: [
-            { name: "Angular", icon: FaAngular, color: "#C50836" },
             { name: "Java", icon: FaJava, color: "#096CAB" },
             { name: "Spring Boot", icon: SiSpringboot, color: "#71B544" },
         ],

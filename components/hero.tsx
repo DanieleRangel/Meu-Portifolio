@@ -60,11 +60,7 @@ export default function Hero() {
     No momento, estou me desenvolvendo na Stack: <strong>☕ Java • 📜 JavaScript • ⚛️ React • 🌐 HTML/CSS • 🌀 Tailwind • 💾 MySQL/PostgreSQL • 🛠️ Spring Boot</strong>
     </p>
 </div>
-
-
-
                         </motion.p>
-
 
                         <Link href="/projects/Daniele Cristina da C Rangel.pdf" download>
                             <motion.button
@@ -85,7 +81,6 @@ export default function Hero() {
                                 />
                             </motion.button>
                         </Link>
-
                     </motion.div>
                     
                     <motion.div
@@ -132,7 +127,6 @@ export default function Hero() {
                                     className="absoulte inset-0 bg-gradient-to-t
                                         from-black/60 to-transparent"
                                 />
-
                                 <motion.div
                                     initial={{ opacity: 0 }}
                                     animate={{ opacity: 1 }}
@@ -141,9 +135,7 @@ export default function Hero() {
                                     }}
                                     className="absolute bottom-8 left-8"
                                 >
-
                                 </motion.div>
-
                             </motion.div>
                         </div>
                     </motion.div>
